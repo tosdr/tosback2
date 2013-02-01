@@ -1,0 +1,8 @@
+ Copyright <p>All the information contained within these World Wide Web Pages is Copyright CBC/Radio-Canada.
+All Rights Reserved.</p>
+<p>All Trademarks mentioned herein belong to their respective owners.</p>
+<p>All the information contained in CBC/Radio-Canada World Wide Web pages is provided "as is".
+CBC/Radio-Canada disclaims all warranties with regard to this information, including all implied warranties of merchantability and fitness for a particular purpose.
+In no event shall CBC/Radio-Canada be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this information.</p>
+<p>The information contained in CBC/Radio-Canada World Wide Web pages could contain technical inaccuracies or typographical errors.
+CBC/Radio-Canada reserve the right to make changes to any information contained within its World Wide Web pages and to make improvements and or changes in the products and programs described in its World Wide Web pages at any time and without notice.</p> 

@@ -1,7 +1,27 @@
 <sitename name="stackexchange.com">
- <docname name="Privacy Policy">
-   <url name="http://stackexchange.com/legal/privacy-policy" xpath="//table[@class='privacy-policy']">
-     <norecurse name="arbitrary"/>
-   </url>
- </docname>
+    <docname name="Terms of Service">
+        <url name="https://stackexchange.com/legal/terms-of-service" xpath="//div[@class='contentWrapper']">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="APIs Terms of Use">
+        <url name="https://stackexchange.com/legal/api-terms-of-use" xpath="//div[@class='contentWrapper']">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Privacy Policy">
+        <url name="https://stackexchange.com/legal/privacy-policy" xpath="//td[@class='full']">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Content Policy">
+        <url name="https://stackexchange.com/legal/content-policy" xpath="//div[@class='contentWrapper']">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Trademark Guidance">
+        <url name="https://stackexchange.com/legal/trademark-guidance" xpath="//div[@class='contentWrapper']">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
 </sitename>

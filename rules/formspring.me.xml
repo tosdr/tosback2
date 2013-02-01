@@ -1,0 +1,12 @@
+<sitename name="formspring.me">
+    <docname name="Terms of Service">
+        <url name="http://www.formspring.me/about/terms" xpath="//div[@id='content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Privacy Policy">
+        <url name="http://www.formspring.me/about/privacy" xpath="//div[@id='content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+</sitename>

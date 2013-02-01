@@ -1,0 +1,7 @@
+<sitename name="feed43.com">
+    <docname name="Terms of Service">
+        <url name="http://feed43.com/tos.html" xpath="//div[@class='main tos']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+</sitename>

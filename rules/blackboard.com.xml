@@ -1,0 +1,17 @@
+<sitename name="blackboard.com">
+    <docname name="Security">
+        <url name="https://www.blackboard.com/Footer/Security-Policy.aspx" xpath="//div[@class='Content']/div" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Privacy Policy">
+        <url name="https://www.blackboard.com/Footer/Privacy-Center.aspx" xpath="//div[@class='editor widget']/div" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Terms of Use">
+        <url name="https://www.blackboard.com/Footer/Terms-of-Use.aspx" xpath="//div[@class='Content']/div" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+</sitename>

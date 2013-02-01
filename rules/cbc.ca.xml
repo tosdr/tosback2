@@ -1,0 +1,27 @@
+<sitename name="cbc.ca">
+    <docname name="Terms of Use">
+        <url name="http://www.cbc.ca/aboutcbc/discover/termsofuse.html" xpath="//div[@class='text_content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Privacy">
+        <url name="http://www.cbc.ca/aboutcbc/discover/privacy.html" xpath="//div[@class='text_content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Copyright">
+        <url name="http://www.cbc.ca/aboutcbc/discover/copyright.html" xpath="//div[@class='text_content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Policies">
+        <url name="http://www.cbc.ca/aboutcbc/discover/policies.html" xpath="//div[@class='text_content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+    <docname name="Your Content Submissions">
+        <url name="http://www.cbc.ca/aboutcbc/discover/submissions.html" xpath="//div[@class='text_content']" lang="EN">
+            <norecurse name="arbitrary"/>
+        </url>
+    </docname>
+</sitename>
