@@ -1,0 +1,8 @@
+
+<sitename name="nbcuni.com">
+ <docname name="Terms of Service">
+   <url name="http://www.nbcuni.com/terms/" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

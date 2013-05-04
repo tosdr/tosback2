@@ -1,0 +1,8 @@
+
+<sitename name="color.com">
+ <docname name="Terms of Service">
+   <url name="http://www.color.com/#tos" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

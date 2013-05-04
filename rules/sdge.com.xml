@@ -1,0 +1,8 @@
+
+<sitename name="sdge.com">
+ <docname name="Terms of Service">
+   <url name="http://sdge.com/our-company/terms-and-conditions" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

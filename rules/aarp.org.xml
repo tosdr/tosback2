@@ -1,0 +1,8 @@
+
+<sitename name="aarp.org">
+ <docname name="Terms of Service">
+   <url name="http://www.aarp.org/about-aarp/info-05-2010/terms_of_service.html" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

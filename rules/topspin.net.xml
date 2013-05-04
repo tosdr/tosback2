@@ -1,0 +1,8 @@
+
+<sitename name="topspin.net">
+ <docname name="Terms of Service">
+   <url name="https://app.topspin.net/account/terms_public" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

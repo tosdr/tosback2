@@ -1,0 +1,8 @@
+
+<sitename name="catalogchoice.org">
+ <docname name="Terms of Service">
+   <url name="https://www.catalogchoice.org/tos" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

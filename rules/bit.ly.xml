@@ -1,0 +1,8 @@
+
+<sitename name="bit.ly">
+ <docname name="Terms of Service">
+   <url name="http://bit.ly/pages/terms-of-service" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

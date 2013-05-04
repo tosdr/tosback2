@@ -1,0 +1,8 @@
+
+<sitename name="addthis.com">
+ <docname name="Terms of Service">
+   <url name="http://www.addthis.com/tos" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

@@ -1,0 +1,8 @@
+
+<sitename name="alexanderstreet.com">
+ <docname name="Terms of Service">
+   <url name="http://womu.alexanderstreet.com/help/view/terms_of_use" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

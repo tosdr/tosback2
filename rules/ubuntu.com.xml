@@ -1,0 +1,8 @@
+
+<sitename name="ubuntu.com">
+ <docname name="Terms of Service">
+   <url name="http://www.ubuntu.com/legal" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

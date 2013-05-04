@@ -1,0 +1,8 @@
+
+<sitename name="turnitin.com">
+ <docname name="Terms of Service">
+   <url name="http://turnitin.com/static/aboutus/usage.php" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

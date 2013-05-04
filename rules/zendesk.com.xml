@@ -1,0 +1,8 @@
+
+<sitename name="zendesk.com">
+ <docname name="Terms of Service">
+   <url name="http://lockerz.zendesk.com/entries/515604-terms-of-service" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

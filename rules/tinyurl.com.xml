@@ -1,0 +1,8 @@
+
+<sitename name="tinyurl.com">
+ <docname name="Terms of Service">
+   <url name="http://tinyurl.com/#terms" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

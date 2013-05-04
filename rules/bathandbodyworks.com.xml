@@ -1,11 +1,11 @@
 <sitename name="bathandbodyworks.com">
  <docname name="Privacy Policy">
-   <url name="http://www.bathandbodyworks.com/helpdesk/index.jsp?display=corp&subdisplay=privacy">
+   <url name="http://www.bathandbodyworks.com/helpdesk/index.jsp?display=corp&amp;subdisplay=privacy">
      <norecurse name="arbitrary"/>
    </url>
  </docname>
  <docname name="Terms of Service">
-   <url name="http://www.bathandbodyworks.com/helpdesk/index.jsp?display=corp&subdisplay=terms">
+   <url name="http://www.bathandbodyworks.com/helpdesk/index.jsp?display=corp&amp;subdisplay=terms">
      <norecurse name="arbitrary"/>
    </url>
  </docname>

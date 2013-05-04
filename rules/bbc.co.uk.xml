@@ -1,0 +1,8 @@
+
+<sitename name="bbc.co.uk">
+ <docname name="Terms of Service">
+   <url name="http://www.bbc.co.uk/terms/personal.shtml" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

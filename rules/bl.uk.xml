@@ -1,0 +1,8 @@
+
+<sitename name="bl.uk">
+ <docname name="Terms of Service">
+   <url name="http://www.bl.uk/aboutus/terms/index.html" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

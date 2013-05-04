@@ -1,0 +1,8 @@
+
+<sitename name="suprsearch.com">
+ <docname name="Terms of Service">
+   <url name="http://www.suprsearch.com/p1/legal/terms.php" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

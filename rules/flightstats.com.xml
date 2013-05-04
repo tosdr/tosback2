@@ -1,0 +1,8 @@
+
+<sitename name="flightstats.com">
+ <docname name="Terms of Service">
+   <url name="http://www.flightstats.com/go/About/termsOfUse.do" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

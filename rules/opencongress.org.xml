@@ -1,0 +1,8 @@
+
+<sitename name="opencongress.org">
+ <docname name="Terms of Service">
+   <url name="http://www.opencongress.org/about/terms_of_service" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

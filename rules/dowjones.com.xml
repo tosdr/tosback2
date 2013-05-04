@@ -1,0 +1,8 @@
+
+<sitename name="dowjones.com">
+ <docname name="Terms of Service">
+   <url name="http://www.dowjones.com/legal-notices.asp" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>

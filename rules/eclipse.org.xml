@@ -1,0 +1,8 @@
+
+<sitename name="eclipse.org">
+ <docname name="Terms of Service">
+   <url name="http://www.eclipse.org/legal/termsofuse.php" xpath="/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
