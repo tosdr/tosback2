@@ -1,7 +1,12 @@
 <sitename name="answers.com">
  <docname name="Privacy Policy">
-   <url name="http://wiki.answers.com/about/legal_notices.html#privacy" xpath="//div[@id='main']">
-     <norecurse name="arbitrary"/>
+   <url name="http://wiki.answers.com/about/legal_notices.html#privacy" xpath="//div[@id=&apos;main&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://wiki.answers.com/about/legal_notices.html#terms" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

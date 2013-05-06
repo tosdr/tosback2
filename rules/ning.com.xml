@@ -1,7 +1,12 @@
 <sitename name="ning.com">
  <docname name="Privacy Policy">
-   <url name="http://www.ning.com/about/legal/privacy/" xpath="//div[@id='entry-37']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.ning.com/about/legal/privacy/" xpath="//div[@id=&apos;entry-37&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://about.ning.com/legal/tos.php" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

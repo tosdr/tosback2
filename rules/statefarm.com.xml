@@ -1,7 +1,12 @@
 <sitename name="statefarm.com">
  <docname name="Privacy Policy">
    <url name="http://www.statefarm.com/about/privacy/privacy.asp?WT.svl=82">
-     <norecurse name="arbitrary"/>
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.statefarm.com/about/terms/terms.asp" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

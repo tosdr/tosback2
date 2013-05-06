@@ -1,7 +1,12 @@
 <sitename name="latimes.com">
  <docname name="Privacy Policy">
    <url name="http://privacy.tribune.com/">
-     <norecurse name="arbitrary"/>
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.latimes.com/services/site/lat-terms,0,5102799,full.story" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

@@ -1,7 +1,12 @@
 <sitename name="aol.com">
  <docname name="Privacy Policy">
    <url name="http://privacy.aol.com/privacy-policy/">
-     <norecurse name="arbitrary"/>
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://legal.aol.com/terms-of-service/full-terms/" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

@@ -1,7 +1,12 @@
 <sitename name="livejournal.com">
  <docname name="Privacy Policy">
-   <url name="http://www.livejournal.com/legal/privacy.bml" xpath="//div[@id='content-wrapper']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.livejournal.com/legal/privacy.bml" xpath="//div[@id=&apos;content-wrapper&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.livejournal.com/legal/tos.bml" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

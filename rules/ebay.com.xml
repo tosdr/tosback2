@@ -1,7 +1,12 @@
 <sitename name="ebay.com">
  <docname name="Privacy Policy">
-   <url name="http://pages.ebay.com/help/policies/privacy-policy.html?rt=nc" xpath="//div[@class='HelpContent']">
-     <norecurse name="arbitrary"/>
+   <url name="http://pages.ebay.com/help/policies/privacy-policy.html?rt=nc" xpath="//div[@class=&apos;HelpContent&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://pages.ebay.com/help/policies/user-agreement.html?rt=nc" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

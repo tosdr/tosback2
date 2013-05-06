@@ -1,12 +1,17 @@
 <sitename name="delicious.com">
  <docname name="Privacy Policy">
-   <url name="http://delicious.com/privacy" xpath="//div[@id='content']/div[@class='body']">
-     <norecurse name="arbitrary"/>
+   <url name="http://delicious.com/privacy" xpath="//div[@id=&apos;content&apos;]/div[@class=&apos;body&apos;]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Terms of Service">
-   <url name="http://delicious.com/terms" xpath="//div[@id='content']/div[@class='body']">
-     <norecurse name="arbitrary"/>
+   <url name="http://delicious.com/terms" xpath="//div[@id=&apos;content&apos;]/div[@class=&apos;body&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.delicious.com/help/terms" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

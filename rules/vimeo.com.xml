@@ -1,7 +1,12 @@
 <sitename name="vimeo.com">
  <docname name="Privacy Policy">
-   <url name="http://vimeo.com/privacy" xpath="//div[@id='legal_doc']">
-     <norecurse name="arbitrary"/>
+   <url name="http://vimeo.com/privacy" xpath="//div[@id=&apos;legal_doc&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://vimeo.com/terms" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

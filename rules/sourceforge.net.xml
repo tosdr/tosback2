@@ -1,7 +1,12 @@
 <sitename name="sourceforge.net">
  <docname name="Privacy Policy">
-   <url name="http://geeknetmedia.com/privacy-statement/" xpath="//article[@id='post-719']">
-     <norecurse name="arbitrary"/>
+   <url name="http://geeknetmedia.com/privacy-statement/" xpath="//article[@id=&apos;post-719&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://sourceforge.net/apps/trac/sitelegal/wiki/Terms_of_Use" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

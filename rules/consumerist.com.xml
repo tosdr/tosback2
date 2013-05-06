@@ -1,7 +1,12 @@
 <sitename name="consumerist.com">
  <docname name="Privacy Policy">
-   <url name="http://consumerist.com/privacy-policy/" xpath="//div[@class='post-77 page type-page status-publish hentry']">
-     <norecurse name="arbitrary"/>
+   <url name="http://consumerist.com/privacy-policy/" xpath="//div[@class=&apos;post-77 page type-page status-publish hentry&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://consumerist.com/user-agreement/" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

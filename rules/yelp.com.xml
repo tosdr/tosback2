@@ -1,7 +1,12 @@
 <sitename name="yelp.com">
  <docname name="Privacy Policy">
-   <url name="http://www.yelp.com/static?p=privacy&#x26;country=US" xpath="//div[@id='super-container']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.yelp.com/static?p=privacy&amp;country=US" xpath="//div[@id=&apos;super-container&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.yelp.com/static?p=tos" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

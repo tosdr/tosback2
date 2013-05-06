@@ -1,7 +1,12 @@
 <sitename name="tumblr.com">
  <docname name="Privacy Policy">
-   <url name="http://www.tumblr.com/policy/en/privacy" xpath="//div[@id='left_column']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.tumblr.com/policy/en/privacy" xpath="//div[@id=&apos;left_column&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.tumblr.com/policy/en/terms_of_service" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

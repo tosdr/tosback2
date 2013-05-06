@@ -1,7 +1,12 @@
 <sitename name="ehow.com">
  <docname name="Privacy Policy">
-   <url name="http://www.ehow.com/privacy.html" xpath="//section[@id='Body']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.ehow.com/privacy.html" xpath="//section[@id=&apos;Body&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.ehow.com/terms-of-use.html" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

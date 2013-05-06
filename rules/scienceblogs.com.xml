@@ -1,8 +1,12 @@
-
 <sitename name="scienceblogs.com">
  <docname name="Terms of Service">
-   <url name="http://scienceblogs.com/terms-conditions/" xpath="//div[@class='main']">
-     <norecurse name="arbitrary"/>
+   <url name="http://scienceblogs.com/terms-conditions/" xpath="//div[@class=&apos;main&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://scienceblogs.com/main/terms/" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

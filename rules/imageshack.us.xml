@@ -1,7 +1,12 @@
 <sitename name="imageshack.us">
  <docname name="Privacy Policy">
-   <url name="http://imageshack.us/p/rules/" xpath="//div[@id='container']">
-     <norecurse name="arbitrary"/>
+   <url name="http://imageshack.us/p/rules/" xpath="//div[@id=&apos;container&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://imageshack.us/content.php?page=rules" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

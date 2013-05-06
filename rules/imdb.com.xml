@@ -1,7 +1,12 @@
 <sitename name="imdb.com">
  <docname name="Privacy Policy">
-   <url name="http://www.imdb.com/privacy" xpath="//div[@id='pagecontent']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.imdb.com/privacy" xpath="//div[@id=&apos;pagecontent&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.imdb.com/help/show_article?conditions" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

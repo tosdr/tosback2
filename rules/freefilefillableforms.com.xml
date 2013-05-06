@@ -1,8 +1,12 @@
-
 <sitename name="freefilefillableforms.com">
  <docname name="Terms of Service">
-   <url name="https://www.freefilefillableforms.com/fff/html/Terms_of_Service/FED.htm" xpath='/'>
-     <norecurse name="arbitrary"/>
+   <url name="https://www.freefilefillableforms.com/fff/html/Terms_of_Service/FED.htm" xpath="/">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="https://www.freefilefillableforms.com/FFA/Terms_of_Service/FED.htm" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

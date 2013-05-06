@@ -1,7 +1,12 @@
 <sitename name="cnbc.com">
  <docname name="Privacy Policy">
-   <url name="http://www.cnbc.com/id/100000959/print" xpath="//div[@class='story']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.cnbc.com/id/100000959/print" xpath="//div[@class=&apos;story&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.cnbc.com/id/15837353/" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

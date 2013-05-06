@@ -1,7 +1,12 @@
 <sitename name="starbucks.com">
  <docname name="Privacy Policy">
-   <url name="http://www.starbucks.com/about-us/company-information/online-policies/privacy-policy" xpath="//div[@class='region size2of3']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.starbucks.com/about-us/company-information/online-policies/privacy-policy" xpath="//div[@class=&apos;region size2of3&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.starbucks.com/about-us/company-information/online-policies/terms-of-use" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

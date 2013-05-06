@@ -1,11 +1,16 @@
 <sitename name="yahoo.com">
  <docname name="Terms of Service">
-  <url name="http://info.yahoo.com/legal/us/yahoo/utos/terms/" xpath="//div[@id='rb']">
+  <url name="http://info.yahoo.com/legal/us/yahoo/utos/terms/" xpath="//div[@id=&apos;rb&apos;]">
   </url>
  </docname>
  <docname name="Privacy Policy">
-   <url name="http://info.yahoo.com/privacy/us/yahoo/details.html" xpath="//div[@id='pp-content1']">
-     <norecurse name="arbitrary"/>
+   <url name="http://info.yahoo.com/privacy/us/yahoo/details.html" xpath="//div[@id=&apos;pp-content1&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://info.yahoo.com/legal/us/yahoo/utos/utos-173.html" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

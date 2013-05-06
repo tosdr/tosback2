@@ -1,7 +1,12 @@
 <sitename name="zendesk.com">
  <docname name="Terms of Service">
-   <url name="http://www.zendesk.com/company/terms" xpath="//div[@id='content']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.zendesk.com/company/terms" xpath="//div[@id=&apos;content&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://lockerz.zendesk.com/entries/515604-terms-of-service" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

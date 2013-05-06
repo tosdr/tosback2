@@ -1,7 +1,12 @@
 <sitename name="myspace.com">
  <docname name="Privacy Policy">
-   <url name="http://www.myspace.com/Help/Privacy?pm_cmp=ed_footer" xpath="//section[@id='col0_0']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.myspace.com/Help/Privacy?pm_cmp=ed_footer" xpath="//section[@id=&apos;col0_0&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.myspace.com/Help/Terms" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

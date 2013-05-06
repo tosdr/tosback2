@@ -1,7 +1,12 @@
 <sitename name="reddit.com">
  <docname name="Privacy Policy">
-   <url name="http://www.reddit.com/help/privacypolicy" xpath="//div[@id='content']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.reddit.com/help/privacypolicy" xpath="//div[@id=&apos;content&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.reddit.com/help/useragreement" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

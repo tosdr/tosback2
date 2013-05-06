@@ -1,62 +1,67 @@
 <sitename name="amazon.com">
  <docname name="Amazon.com Privacy Notice">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=468496" xpath="//td[@class='center-col']/div/div[@class='section']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=468496" xpath="//td[@class=&apos;center-col&apos;]/div/div[@class=&apos;section&apos;]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Amazon Kindle Store Terms of Use">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201014950" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201014950" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Conditions of Use">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=508088" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=508088" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
   <docname name="Kindle for Android Legal Notices">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200495390" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200495390" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Kindle for PC Legal Notices">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200499360" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200499360" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Kindle for Mac Legal Notices">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200443370" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200443370" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="AMAZON SILK TERMS &amp; CONDITIONS">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200775270" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200775270" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Kindle Cloud Reader Legal Notices">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200701450" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200701450" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Kindle for Windows 8 Legal Notices">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200939440" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=200939440" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Amazon App Suite Legal Notices">
-   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201008370" xpath="//td[@class='center-col']/*[not(@class='cBox secondary') and not(@class='cBox primary')]">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201008370" xpath="//td[@class=&apos;center-col&apos;]/*[not(@class=&apos;cBox secondary&apos;) and not(@class=&apos;cBox primary&apos;)]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Interest-Based Ads">
-   <url name="http://www.amazon.com/b/?&amp;node=5160028011" xpath="//div[@id='centercolatf']/div[@class='unified_widget rcmBody']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/b/?&amp;node=5160028011" xpath="//div[@id=&apos;centercolatf&apos;]/div[@class=&apos;unified_widget rcmBody&apos;]">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
  <docname name="Third Party Licenses">
-   <url name="http://www.amazon.com/b/?&amp;node=200910440" xpath="//div[@id='centercolatf']/div[@class='unified_widget rcmBody']">
-     <norecurse name="arbitrary"/>
+   <url name="http://www.amazon.com/b/?&amp;node=200910440" xpath="//div[@id=&apos;centercolatf&apos;]/div[@class=&apos;unified_widget rcmBody&apos;]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.amazon.com/gp/help/customer/display.html/ref=footer_cou/180-0430910-0752712?ie=UTF8&amp;nodeId=508088" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

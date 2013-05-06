@@ -1,7 +1,12 @@
 <sitename name="msn.com">
  <docname name="Privacy Policy">
    <url name="http://privacy.microsoft.com/en-us/fullnotice.mspx ">
-     <norecurse name="arbitrary"/>
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="http://www.msnbc.msn.com/id/3303540/ns/about/t/terms-conditions/" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>

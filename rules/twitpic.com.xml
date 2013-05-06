@@ -1,12 +1,17 @@
 <sitename name="twitpic.com">
  <docname name="Privacy Policy">
    <url name="http://twitpic.com/privacy.do">
-     <norecurse name="arbitrary"/>
+     <norecurse name="arbitrary" />
    </url>
  </docname> 
  <docname name="Terms of Service">
    <url name="http://twitpic.com/terms.do">
-     <norecurse name="arbitrary"/>
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+<docname name="Terms of Service">   
+   <url name="https://twitpic.com/terms.do" xpath="/">
+     <norecurse name="arbitrary" />
    </url>
  </docname>
 </sitename>
