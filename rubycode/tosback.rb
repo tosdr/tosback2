@@ -1,8 +1,10 @@
+
 require 'nokogiri'
 require 'open-uri'
 require 'sanitize'
 require 'mechanize' # will probably need to use this instead to handle sites that require session info
 # require 'grit'
+require 'json'
 
 $rules_path = "../rules/" # Directories should include trailing slash
 $results_path = "../crawl/"
@@ -20,7 +22,7 @@ class TOSBackApp
     @sites = []
     Dir.foreach(path) do |xml_file| # loop for each xml file/rule
       next if xml_file == "." || xml_file == ".."
-       @sites << TOSBackSite.new("#{path}#{xml_file}")
+       @sites << TOSBackSite.from_xml("#{path}#{xml_file}")
     end
   end #init
   
@@ -43,7 +45,7 @@ class TOSBackApp
     @sites.each do |tbs|
       tbs.write_docs
     end
-  end
+  end #write_sites
   
   def self.find_empty_crawls(path=$results_path, byte_limit)
     Dir.glob("#{path}*") do |filename| # each dir in crawl
@@ -75,13 +77,19 @@ class TOSBackApp
   end
 
   attr_accessor :sites
+  
 end
 
 class TOSBackSite
   @sitename ||= nil
   @docs ||= nil
+
+  def initialize(sitename,docs)
+    @sitename = sitename
+    @docs = docs
+  end #initialize
   
-  def initialize(xml)
+  def TOSBackSite.from_xml(xml)
     begin
       filecontent = File.open(xml)
       ngxml = Nokogiri::XML(filecontent)
@@ -93,13 +101,36 @@ class TOSBackSite
       filecontent.close
     end
     
-    @sitename = ngxml.xpath("//sitename[1]/@name").to_s
-    @docs = []
-    ngxml.xpath("//sitename/docname").each do |doc|
-     docs << TOSBackDoc.new({:site => @sitename,:name => doc.at_xpath("./@name").to_s,:url => doc.at_xpath("./url/@name").to_s,:xpath => doc.at_xpath("./url/@xpath").to_s})
-    end    
-  end #initialize
+    sitename = ngxml.xpath("//sitename[1]/@name").to_s
+    TOSBackSite.new(sitename, ngxml.xpath("//sitename/docname") \
+      .map { |doc| TOSBackDoc.new(
+          {:site => sitename,
+           :name => doc.at_xpath("./@name").to_s,
+           :url => doc.at_xpath("./url/@name").to_s,
+           :xpath => doc.at_xpath("./url/@xpath").to_s} ) } )
+    
+  end #TOSBackSite.from_xml
 
+  def TOSBackSite.from_json(path)
+    j = JSON.parse(File.read(path))
+    sitename = j['tosback2']['sitename']
+
+    TOSBackSite.new(sitename, j['tosback2'] \
+      .reject { |k,v| k=='sitename' } \
+      .map { |k,v| TOSBackDoc.new(
+        { :site => sitename, 
+          :name => v["name"],
+          :url => v["url"] }) } )
+  end #TOSBackSite.from_json
+ 
+  def inspect
+    self.to_s
+  end #inspect
+    
+  def to_s
+    "#{@sitename} has #{@docs}"
+  end #to_s
+ 
   def scrape_docs() # get new data from net
     @docs.each do |eachdoc|
       eachdoc.scrape
@@ -142,6 +173,15 @@ class TOSBackDoc
     @url = hash[:url]
     @xpath = (hash[:xpath] == "") ? nil : hash[:xpath]
   end #init
+
+  def inspect
+    self.to_s
+  end #inspect
+    
+  def to_s
+    "TosBackDoc #{{:site => @site, :name=>@name, :url=>@url, :xpath=>@xpath}}"
+    
+  end #to_s
   
   def scrape(checkprev=true)
     download_full_page()
@@ -278,9 +318,11 @@ if ARGV.length == 0
 elsif ARGV[0] == "-empty"
   
   TOSBackApp.find_empty_crawls($results_path,512)
+elsif ARGV[0] == "-json"
 
+  print TOSBackSite.from_json(ARGV[1])
 else
-  tbs = TOSBackSite.new(ARGV[0])
+  tbs = TOSBackSite.from_xml(ARGV[0])
   tbs.scrape_docs
   
   case ARGV[1]
