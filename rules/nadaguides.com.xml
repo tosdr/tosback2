@@ -1,6 +1,7 @@
 <sitename name="nadaguides.com">
  <docname name="Privacy Policy">
    <url name="http://nadaguides.com/Privacy-policy" xpath="//div[@id='mst_content_wrap']">
+     <!-- Has been intermittently returning 404 Not Found errors since at least Nov 24, 2012 -->
      <norecurse name="arbitrary"/>
    </url>
  </docname>

@@ -1,6 +1,8 @@
 <sitename name="adotas.com">
  <docname name="Privacy Policy">
    <url name="http://www.adotas.com/privacy-policy/" xpath="//div[@id='content-article']">
+     <!-- Has been returning 404 Not Found since Jan 17, 2013. 
+          The site claims to be down for redesign. -->
      <norecurse name="arbitrary"/>
    </url>
  </docname>

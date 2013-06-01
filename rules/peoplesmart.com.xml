@@ -1,6 +1,7 @@
 <sitename name="peoplesmart.com">
  <docname name="Privacy Policy">
    <url name="http://www.peoplesmart.com/?_act=privacy">
+     <!-- This works locally, but fails with "connection refused" on crawl.tosdr.org, as of 26 May 2013; it's been failing since Oct 5, 2012. -->
      <norecurse name="arbitrary"/>
    </url>
  </docname>

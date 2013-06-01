@@ -1,6 +1,8 @@
 <sitename name="carbonunity.com">
  <docname name="Privacy Policy">
    <url name="http://www.carbonunity.com/privacy-policy">
+     <!-- This has been returning 404 Not Found since Nov 8, 2012. 
+          There's no link to a Privacy Policy on the homepage. -->
      <norecurse name="arbitrary"/>
    </url>
  </docname>
