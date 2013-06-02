@@ -1,0 +1,12 @@
+<sitename name="cloudant.com">
+ <docname name="Privacy">
+   <url name="https://www.cloudant.com/privacy/" xpath="//div[@id='pageArea']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms of Service">
+   <url name="https://www.cloudant.com/terms/" xpath="//div[@id='pageArea']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+</sitename>

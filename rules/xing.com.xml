@@ -1,0 +1,12 @@
+<sitename name="xing.com">
+ <docname name="Privacy Policy">
+   <url name="http://www.xing.com/privacy" xpath="//div[@id='maincontent']/node()[not(self::noscript)]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms and Conditions">
+   <url name="http://www.xing.com/terms" xpath="//div[@id='maincontent']/node()[not(self::noscript)]">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+</sitename>

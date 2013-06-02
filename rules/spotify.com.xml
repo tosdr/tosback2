@@ -1,0 +1,27 @@
+<sitename name="spotify.com">
+ <docname name="Privacy Policy">
+   <url name="https://www.spotify.com/us/legal/privacy-policy/" xpath="//div[@id='pbody']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms and Conditions (Mobile)">
+   <url name="http://www.spotify.com/us/legal/mobile-terms-and-conditions/" xpath="//div[@id='pbody']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms and Conditions (Premium)">
+   <url name="http://www.spotify.com/us/legal/premium-code-terms-and-conditions/" xpath="//div[@id='pbody']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms and Conditions (Unlimited)">
+   <url name="http://www.spotify.com/us/legal/unlimited-code-terms-and-conditions/" xpath="//div[@id='pbody']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms and Conditions of Use">
+   <url name="http://www.spotify.com/us/legal/end-user-agreement/" xpath="//div[@id='pbody']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+</sitename>

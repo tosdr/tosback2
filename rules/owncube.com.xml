@@ -1,0 +1,12 @@
+<sitename name="owncube.com">
+ <docname name="Privacy">
+   <url name="https://owncube.com/privacy-en.php" xpath="//div[@id='main']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms of Use">
+   <url name="https://owncube.com/terms-en.php" xpath="//div[@id='main']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+</sitename>

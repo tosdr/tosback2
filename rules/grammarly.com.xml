@@ -1,0 +1,12 @@
+<sitename name="grammarly.com">
+ <docname name="Privacy Policy">
+   <url name="http://privacy-policy.truste.com/verified-policy/www.grammarly.com" xpath="//div[@id='b']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms of Service and License Agreement">
+   <url name="http://www.grammarly.com/terms" xpath="//div[@class='terms-page']">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+</sitename>

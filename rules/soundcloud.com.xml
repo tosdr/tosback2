@@ -1,0 +1,17 @@
+<sitename name="soundcloud.com">
+ <docname name="Community Guidelines">
+   <url name="https://pages.soundcloud.com/other/community-guidelines.html">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Privacy Policy">
+   <url name="https://pages.soundcloud.com/legal/privacy-policy.html">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+ <docname name="Terms of Service">
+   <url name="http://pages.soundcloud.com/legal/terms-of-use.html">
+     <norecurse name="arbitrary" />
+   </url>
+ </docname>
+</sitename>
