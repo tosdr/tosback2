@@ -29,6 +29,16 @@ def missing_from_tosback2(tosdr,tosback2):
     ks=dict(tosback2).keys()
     return [x for x in tosdr if x[0] not in ks]
 
+def differences(tosdr,tosback2, extract_func, compare_func):
+    def dt(a,b):
+        return list(compare_func(set(map(extract_func,a)), set(map(extract_func,b))))
+    ds=dict(tosback2)
+    return [(x[0],dt(x[1],ds[x[0]])) for x in tosdr if x[0] in ds and x[1]!=ds[x[0]] ]
+
+def different_in_tosback2(tosdr,tosback2):
+    ds=dict(tosback2)
+    return [(x[0],(x[1],ds[x[0]])) for x in tosdr if x[0] in ds and x[1]!=ds[x[0]] ]
+
 def tosback2_write(data, direct):
     r=et.Element('sitename',{'name':data[0]})
     for x in data[1]:
