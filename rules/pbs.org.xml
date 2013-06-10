@@ -1,6 +1,11 @@
 <sitename name="pbs.org">
  <docname name="Privacy Policy">
-   <url name="http://www.pbs.org/about/policies/privacy-policy/">
+   <url name="http://www.pbs.org/about/privacy-policy" xpath="//*[@id='article']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+ <docname name="Terms of Use">
+   <url name="http://www.pbs.org/about/terms-of-use" xpath="//*[@id='article']">
      <norecurse name="arbitrary"/>
    </url>
  </docname>

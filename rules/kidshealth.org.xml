@@ -1,6 +1,6 @@
 <sitename name="kidshealth.org">
- <docname name="Privacy Policy">
-   <url name="http://kidshealth.org/parent/kh_misc/policy.html">
+ <docname name="Privacy Policy and Terms of Use">
+   <url name="https://secure02.kidshealth.org/parent/kh_misc/policy.html" xpath="//*[@id='khcontent_article']">
      <norecurse name="arbitrary"/>
    </url>
  </docname>
