@@ -1,0 +1,7 @@
+<sitename name="coursera.org">
+ <docname name="Terms of Use">
+   <url name="https://www.coursera.org/about/terms" xpath="//div[@class='coursera-about-body']" lang="EN">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
