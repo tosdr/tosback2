@@ -1,0 +1,12 @@
+<sitename name="kaiserpermanente.org">
+ <docname name="Privacy statement">
+   <url name="https://healthy.kaiserpermanente.org/health/poc?uri=center:privacy-statement" xpath="//*[@id='mainContent']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+ <docname name="Terms and conditions">
+   <url name="https://healthy.kaiserpermanente.org/health/poc?uri=content:ancillary&amp;ctype=terms_conditions&amp;tid=WPP::KZ39WVLZT&amp;tname=site_context" xpath="//*[@id='mainContent']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
