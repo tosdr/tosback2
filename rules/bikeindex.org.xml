@@ -1,0 +1,17 @@
+<sitename name="bikeindex.org">
+ <docname name="Privacy Policy">
+   <url name="https://www.bikeindex.org/privacy/" xpath="//div[@id='legal-terms']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+ <docname name="Website Terms of Service">
+   <url name="https://www.bikeindex.org/terms" xpath="//div[@id='legal-terms']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+ <docname name="Vendor Terms of Service">
+   <url name="https://www.bikeindex.org/vendor_terms" xpath="//div[@id='legal-terms']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
