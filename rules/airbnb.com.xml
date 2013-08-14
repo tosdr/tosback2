@@ -1,0 +1,27 @@
+<sitename name="airbnb.com">
+  <docname name="Terms of Service">
+   <url name="https://www.airbnb.com/terms" xpath="//div[@id='terms-tab-pane']" lang="EN">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+ <docname name="Privacy Policy">
+  <url name="https://www.airbnb.com/terms" xpath="//div[@id='privacy-tab-pane']" lang="EN">
+    <norecurse name="arbitrary"/>
+  </url>
+ </docname>
+ <docname name="Host Guarantee Terms and Conditions">
+  <url name="https://www.airbnb.com/terms" xpath="//div[@id='guarantee-tab-pane']" lang="EN">
+    <norecurse name="arbitrary"/>
+  </url>
+ </docname>
+ <docname name="Guest Refund Policy Terms">
+  <url name="https://www.airbnb.com/terms" xpath="//div[@id='grpt-tab-pane']" lang="EN">
+    <norecurse name="arbitrary"/>
+  </url>
+ </docname>
+ <docname name="Copyright Policy">
+  <url name="https://www.airbnb.com/terms" xpath="//div[@id='copyright-tab-pane']" lang="EN">
+    <norecurse name="arbitrary"/>
+  </url>
+ </docname>
+</sitename>
