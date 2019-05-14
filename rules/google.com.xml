@@ -1,22 +1,19 @@
-<sitename name="google.com">
-  <docname name="Terms of Service">
-    <url name="https://policies.google.com/terms" xpath="//div[@role='article']" reviewed="true">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Privacy Policy">
-    <url name="https://policies.google.com/privacy" xpath="//div[@role='article']" reviewed="true">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Google Analytics Terms of Service">   
-    <url name="https://www.google.com/analytics/terms/us.html" xpath="//div[@class='main']">
-      <norecurse name="arbitrary" />
-    </url>
-  </docname>
-  <docname name="Google Wifi and your privacy">   
-    <url name="https://support.google.com/wifi/answer/6246642?hl=en" xpath="//article">
-      <norecurse name="arbitrary" />
-    </url>
-  </docname>
-</sitename>
+<docname name="Google Wifi and your privacy">
+  <url name="https://support.google.com/wifi/answer/6246642?hl=en" xpath="/html/body/div[2]/div/section/div[1]/div[1]/article/section">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+
+<docname name="GOOGLE PRIVACY POLICY">
+  <url name="https://policies.google.com/privacy" xpath="//*[@id='yDmH0d']/c-wiz/div/div/div[2]/div[3]">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+
+<docname name="Advertising Cookies Policy">
+  <url name="https://policies.google.com/technologies/ads" xpath="//*[@id='yDmH0d']/c-wiz/div/div/div[2]/div[3]/div/div">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>

@@ -1,32 +1,11 @@
-<sitename name="ui.com">
-  <docname name="Terms of Service">
-    <url name="https://www.ui.com/legal/termsofservice/" xpath="//div[@class='comWrapper']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Unifi Elite Terms and Conditions">
-    <url name="https://www.ui.com/legal/unifi-elite/termsandconditions/" xpath="//div[@class='comWrapper']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="UniFi Controller Terms of Service">
-    <url name="https://www.ui.com/legal/unifi/termsofservice/" xpath="//div[@class='comWrapper']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Ubiquiti Store Terms and Conditions">
-    <url name="https://www.ui.com/legal/ubnt-store/termsandconditions/" xpath="//div[@class='comWrapper']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Ubiquiti Networks Privacy Policy">
-    <url name="https://www.ui.com/legal/privacypolicy/" xpath="//div[@class='comWrapper']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Ubiquiti Beta Store Terms of Service">
-    <url name="https://www.ui.com/legal/termsofservice/betastore/" xpath="//div[@class='comWrapper']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-</sitename>
+<docname name="Privacy Policy">
+  <url name="https://www.ui.com/legal/privacypolicy/" xpath="/html/body/div[1]/div[2]/div/div[2]">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+<docname name="Terms of Service">
+  <url name="https://www.ui.com/legal/unifi/termsofservice/" xpath="/html/body/div[1]/div[2]/div/div">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>

@@ -1,7 +1,23 @@
 <sitename name="tp-link.com">
-  <docname name="Privacy and Terms of Use">
-    <url name="https://www.tp-link.com/us/privacy" xpath="//div[@id='article']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
+ <docname name="Privacy Policy">
+   <url name="https://www.tp-link.com/us/about-us/privacy/" xpath="//*[@id='article']/div/div[2]">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="tp-link.com">
+ <docname name="Terms of Use">
+   <url name="https://www.tp-link.com/us/about-us/privacy/#sec_b" xpath="//*[@id='article']/div/div[2]">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="tp-link.com">
+ <docname name="Security Advisory">
+   <url name="https://www.tp-link.com/us/press/security-advisory/">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
 </sitename>

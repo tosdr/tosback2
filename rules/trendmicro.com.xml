@@ -1,0 +1,11 @@
+<docname name="Router Compatibility List">
+  <url name="https://esupport.trendmicro.com/en-us/home/pages/technical-support/home-network-security/router-list.aspx" xpath="//*[@id="table_filter_router"]/tbody">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+<docname name="Linksys Shield Privacy Notice">
+  <url name="https://www.trendmicro.com/content/dam/trendmicro/global/en/about/legal/global/linksys/tm-privacy-notice-linksys-shield.pdf">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>

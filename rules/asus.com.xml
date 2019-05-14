@@ -1,12 +1,31 @@
 <sitename name="asus.com">
-  <docname name="Terms of Use">
-    <url name="https://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Official-Site/" xpath="//div[@id='main-zone']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Privacy Policy">
-    <url name="https://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/" xpath="//div[@id='main-zone']" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
+ <docname name="Privacy Policy">
+   <url name="https://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/" xpath="//*[@id='member-page-content']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="asus.com">
+ <docname name="Terms of Use">
+   <url name="https://www.asus.com/us/Terms_of_Use_Notice_Privacy_Policy/Official-Site/" xpath="//*[@id='member-page-content']">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="asus.com">
+ <docname name="Security Advisory">
+   <url name="https://www.asus.com/Static_WebPage/ASUS-Product-Security-Advisory/" xpath="//*[@id='main-zone']/div/div[2]">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="asus.com">
+ <docname name="Hackerone Profile">
+   <url name="https://hackerone.com/asus">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
 </sitename>

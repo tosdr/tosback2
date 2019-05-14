@@ -1,12 +1,19 @@
-<sitename name="netgear.com">
-  <docname name="Terms and Conditions">
-    <url name="https://www.netgear.com/about/terms-and-conditions/default.aspx" xpath="//article" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Privacy Policy">
-    <url name="https://www.netgear.com/about/privacy-policy/default.aspx" xpath="//article" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-</sitename>
+<docname name="Privacy Policy">
+  <url name="https://www.netgear.com/about/privacy-policy/default.aspx#13" xpath="//*[@id='wrapper']/main/section/div/div/section/article/section/div">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+
+<docname name="Terms of Service">
+  <url name="https://www.netgear.com/about/terms-and-conditions/default.aspx" xpath="//*[@id='wrapper']/main/section/div/div/section/article/section">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+
+<docname name="Vunerability Disclosure Program">
+  <url name="hhttps://bugcrowd.com/netgear" xpath="//*[@id='content']/main/div[2]/section/div/div[2]">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>

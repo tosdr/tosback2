@@ -1,22 +1,47 @@
 <sitename name="linksys.com">
-  <docname name="Terms of Use">
-    <url name="https://www.linksys.com/us/terms-of-use/" xpath="//main" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Privacy Policy">
-    <url name="https://www.linksys.com/us/privacy-policy/" xpath="//main" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Linksys Shield Terms of Service">
-    <url name="https://www.linksys.com/us/terms/linksys-shield-terms/" xpath="//main" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
-  <docname name="Linksys Shield Privacy Notice">
-    <url name="https://www.linksys.com/us/privacy/linksys-shield-privacy/" xpath="//main" lang="EN">
-      <norecurse name="arbitrary"/>
-    </url>
-  </docname>
+ <docname name="Privacy Policy">
+   <url name="https://www.linksys.com/us/privacy-policy/" xpath="/html/body/main/div[2]/div/div[3]">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="linksys.com">
+ <docname name="Terms of Use">
+   <url name="https://www.linksys.com/us/terms-of-use/" xpath="/html/body/main/div[2]/div/div/div/div">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="linksys.com">
+ <docname name="end-user-license-agreement">
+   <url name="https://www.linksys.com/us/end-user-license-agreement/" xpath="/html/body/main/div[2]/div/div/div/div">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="linksys.com">
+ <docname name="Belkin Ad and Cookie Policy">
+   <url name="https://www.linksys.com/us/cookie-policy/" xpath="/html/body/main/div[2]/div/div[2]/div">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="linksys.com">
+ <docname name="Linksys Shield Privacy Notice">
+   <url name="https://www.linksys.com/us/privacy/linksys-shield-privacy/" xpath="/html/body/main/div[2]/div/div[2]">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
+</sitename>
+
+<sitename name="linksys.com">
+ <docname name="COORDINATED VULNERABILITY DISCLOSURE PROGRAM">
+   <url name="https://www.belkin.com/us/security" xpath="/html/body/main/div[2]/div/div[3]">
+     <norecurse name="arbitrary"/>
+   </url>
+ </docname>
 </sitename>
