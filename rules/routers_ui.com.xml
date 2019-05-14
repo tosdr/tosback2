@@ -1,0 +1,11 @@
+<docname name="Privacy Policy">
+  <url name="https://www.ui.com/legal/privacypolicy/" xpath="/html/body/div[1]/div[2]/div/div[2]">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
+
+<docname name="Terms of Service">
+  <url name="https://www.ui.com/legal/unifi/termsofservice/" xpath="/html/body/div[1]/div[2]/div/div">
+   <norecurse name="arbitrary"/>
+  </url>
+</docname>
